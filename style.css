@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+    scroll-padding-top: 12rem;
+}
+
+header{
+    background-color: orange;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+
+header h1{
+    font-family: 'DM Sans', sans-serif ;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 15rem;
+}
+
+header ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+header li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header li:hover{
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+header a:hover{
+    background-color: black;
+}
+
+section{
+    margin-top: 6rem;
+    margin-bottom: 24rem;
+}
+
+h2{
+    margin-bottom: 1rem;
+    font-family: 'DM Sans', sans-serif ;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#inicio p{
+    margin-bottom: 3rem;
+    font-family: 'Arimo', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 0.5rem;
+}
+
+#cachorros{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#cachorros div{
+    margin-block: 5rem 5rem;
+}
+
+#cachorros ul{
+    list-style: none;
+}
+
+#cachorros li{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+#gatos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#gatos div{
+    margin-block: 5rem 5rem;
+}
+
+#gatos ul{
+    list-style: none;
+}
+
+#gatos li{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+#formulario h3{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#formulario form{   
+    margin-top: 2rem;
+}
+
+#formulario div{
+    margin-bottom: 1rem;
+}
+
+#formulario label{
+    color: white;
+    width: max-content;
+    background-color: orange;
+    padding: 0.3rem;
+    border-radius: 5px;
+    display: block;
+    margin-left: 0.2rem;
+}
+
+#formulario label:hover{
+    background-color: black;
+    color: orange;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#formulario input{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-block: 5px;
+}
+
+#formulario ::placeholder{
+    color: orange;
+}
+
+#formulario button{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    width: 5rem;
+    height: 2.5rem;
+    color: white;
+    background-color: orange;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+#formulario button:hover{
+    background-color: black;
+    color: orange;
+    transform: scale(1.5);
+    transition: 1s;
+}
